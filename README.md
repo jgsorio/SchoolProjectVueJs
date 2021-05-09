@@ -1,4 +1,5 @@
 # Projeto Escola
+Projeto apenas para fins didáticos construído em VueJs 3.
 
 ## Instalação
 Para instalar o projeto certifique-se que você tenha instalado o node >= 14 na sua máquina.
