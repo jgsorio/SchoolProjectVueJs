@@ -1,24 +1,22 @@
-# school-project
+# Projeto Escola
 
-## Project setup
+## Instalação
+Para instalar o projeto certifique-se que você tenha instalado o node >= 14 na sua máquina.
+Em seguida, acesse a pasta do projeto pelo terminal e digite o seguinte comando:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Acesso a aplicação
+Após a conclusão da instalação, digite o seguinte comando para rodar o aplicação do Vue:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Acesso a API
+Abra um novo terminal e acesse a pasta do projeto.
+Rode o seguinte comando para ter acesso a API de leitura do banco de dados local.
 
-### Lints and fixes files
 ```
-npm run lint
+json-server --watch db.json
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
